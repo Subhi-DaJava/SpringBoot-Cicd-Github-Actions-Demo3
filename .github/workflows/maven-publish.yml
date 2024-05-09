@@ -31,8 +31,8 @@ jobs:
 
     - name: Build with Maven
       run: |
-        - mvn clean 
-        - mvn -B install --file pom.xml
+        mvn clean 
+        mvn -B install 
 
   unit-test:
     runs-on: ubuntu-latest
