@@ -12,7 +12,7 @@ import java.util.List;
 public class FeelingController {
 
     @GetMapping
-    public List<Object> fetch() {
+    public List<Feeling> fetch() {
         return List.of(
                 new Feeling(1, "Happy", 1),
                 new Feeling(2, "Sad", 0),
